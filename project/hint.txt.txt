@@ -1,0 +1,28 @@
+
+1. Import pandas library in code. (Make sure pandas is pre-installed using pip3 install
+pandas earlier)
+2. Import the plotly.express (Make sure plotly is pre-installed using pip3 install plotly )
+3. Write code to read the csv data using pandas
+4. Write code to find the mean of the attempts of each student in each level
+5. create the Scatter graph figure using plotly.express
+a) Pass the mean as first parameter and then pass the x and y coordinate values
+b) Also Pass the size and color of each Scatter on the basis of attempt
+c) Store the output in variable and using show ( ) method plot the graph
+
+
+
+
+
+
+
+
+
+
+
+Hint : - While finding the mean of the attempt set the as_index = False to convert series
+of the data to dataframe
+Note - When you find the mean of attempts using groupby method, it gives you a
+series instead of a dataframe. A series is like a list while a dataframe is like a list of lists.
+In order to plot the graph, we will create a new dataframe using groupby and mean
+methods, and we'll use the hint given above. We will use the resulting dataframe to plot
+the graph.
